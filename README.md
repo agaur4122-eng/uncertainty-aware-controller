@@ -16,11 +16,13 @@ Risk Score (R) = (0.4 * U_epi) + (0.4 * U_ale) + (0.2 * E_pred)
 
 When the total risk score exceeds the 0.40 threshold, the system activates a cautious operational mode, widening buffer distances proactively.
 
-## Scenario Evaluation Suite
-The simulation environment evaluates performance across three primary failure domains:
-1. Pedestrian Crosswalks (T1): Benchmarks system efficiency and checks for false positives during routine interactions.
-2. Vehicle Cut-Ins (T2): Evaluates proactive response speed and separation safety margins during abrupt lane changes.
-3. Environmental Degradation (T3): Tests system resilience under high sensor noise and reduced visibility conditions.
+## Simulation Scenarios
+The simulation environment evaluates performance across five primary failure domains:
+1. Pedestrian Crosswalks: Benchmarks system efficiency and checks for false positives during routine interactions.
+2. Vehicle Cut-Ins: Evaluates proactive response speed and separation safety margins during abrupt lane changes.
+3. Lead-Vehicle Braking: Tests system reaction to sudden deceleration of preceding traffic.
+4. Unprotected Intersection: Assesses cautious decision-making in complex multi-path interactions with right-of-way ambiguity.
+5. Environmental Degradation: Tests system resilience under high sensor noise and reduced visibility conditions.
 
 
 ## Running the Simulation
